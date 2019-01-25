@@ -1,0 +1,39 @@
+body {
+    padding-top: 5rem;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.table td,
+.table th {
+    padding: .5rem 1rem;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.table td.index {
+    width: 1%;
+}
+
+.table td.content {
+    width: 100%;
+}
+
+.table td.actions {
+    width: 1%;
+}
+
+span.card-title {
+    font-size: 1.2rem;
+}
+
+.card.card-data {
+    margin-bottom: 1rem;
+}
+
+.alert > ul {
+    margin: 0;
+}

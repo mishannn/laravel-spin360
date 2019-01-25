@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+.content {
+    width: fit-content;
+}
+
+.img-wrapper {
+    /*width: auto;*/
+    /*height: auto;*/
+    /*max-width: 100%;*/
+    /*max-height: 100vh;*/
+}
+
+.reel-overlay {
+    /*width: 100% !important;*/
+}
+
+#spin-image {
+    max-height: calc(100vh - 60px);
+    max-width: 100%;
+    width: auto !important;
+    height: auto !important;
+}
+
+.info-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-bar > img {
+    display: block;
+}
