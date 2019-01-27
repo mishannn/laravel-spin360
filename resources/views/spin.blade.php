@@ -1,4 +1,6 @@
 <?php /** @var $spin \App\Spin */ ?>
+<?php /** @var $imageWidth int */ ?>
+<?php /** @var $imageHeight int */ ?>
 
 @extends('layouts.blank')
 
@@ -8,6 +10,8 @@
     <div class="content">
         <div class="img-wrapper">
             <img id="spin-image" class="reel" src="{{ route('home') }}/storage/spins/{{ $spin->name }}/1.jpg"
+                 width="{{ $imageWidth }}"
+                 height="{{ $imageHeight }}"
                  data-laziness="1"
                  data-frames="{{ $spin->frames_count }}"
                  data-images="{{ route('home') }}/storage/spins/{{ $spin->name }}/#.jpg"

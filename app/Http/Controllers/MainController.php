@@ -28,10 +28,14 @@ class MainController extends Controller
             return abort(404);
         }
 
+        list($width, $height) = getimagesize($storage->path($path . '/1.jpg'));
+
 //        $frames = $storage->allFiles($path);
 
         return view('spin', [
             'spin' => $spin,
+            'imageWidth' => $width,
+            'imageHeight' => $height,
         ]);
     }
 }
