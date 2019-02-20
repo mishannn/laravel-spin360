@@ -14,7 +14,7 @@ class UsersTableSeeder extends Seeder {
         if (!$table->where('username', '=', 'admin')->exists()) {
             $table->insert([
                 'username' => 'admin',
-                'password' => 'k0im9e',
+                'password' => '12345',
             ]);
         }
     }
